@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ვალუტის კურსები</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    
+<h1 id="title">
+    ეროვნული ბანკის კურსი
+    </h1>
+    
+    <div>
+      <div class="byesell">
+      <h1 class="RESULT">
+        გაყიდვა
+      </div>
+      </h1>
+      <input value=0 id="value1"> 
+    <select class="choose" id="list">
+      <option value="GEL" class="curr1">GEL</option>
+      <option value="USD" class="curr1">USD</option>
+      <option value="EUR" class="curr1">EUR</option>
+      <option value="GBR" class="curr1">GBR</option>
+    </select>
+    </div>
+    
+    <div>
+      <div class="byesell">
+        <h1 class="RESULT">
+          ყიდვა
+        </div>
+    <input id="value2" disabled>
+    <select class="choose"  id="list1">
+      <option value="GEL" class="curr2">GEL</option>
+      <option value="USD" class="curr2">USD</option>
+      <option value="EUR" class="curr2">EUR</option>
+      <option value="GBR" class="curr2">GBR</option>
+    </select>
+    </div>
+    
+    <div>
+    <button  onclick="calculate()">
+    დათვლა
+    </button>
+  </div>
+
+  <h1 id="test" class="RESULT">
+  </h1>
+  <h1 id="test2" class="RESULT">
+  </h1>
+    </div>
+    
+</body>
+<script src="code.js"></script>
+</html>
